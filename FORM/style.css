@@ -1,0 +1,29 @@
+body{
+   
+    background-color: rgb(53, 174, 174);
+    padding:20px;
+}
+form{
+    width: 500px;
+    padding: 20px;
+    margin-left: 25%;
+    margin-top: 10%;
+    border: 1px solid darkcyan;
+    border-width: 5px;
+    font-size: 20px;
+    background-color:rgb(133, 231, 195);
+}
+
+
+.form-element label{
+    flex: 0 0 120px;
+    text-align: left;
+    margin-right: 10px;
+}
+#submit_button{
+    display: flex;
+   margin-left: 200px;
+    margin-top: 10px;
+    background-color: blanchedalmond;
+    font-size: 16px;
+}

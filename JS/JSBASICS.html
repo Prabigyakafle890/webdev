@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+    <script>
+        var a;// global scope
+        let b;// limited scope
+        a=10;
+        b=20;
+        document.write("value of a" +a);
+        document.write("<br>");
+        document.write("value of b" +b);
+        document.write("<br>");
+        document.write(a+b);
+        document.getElementById("result").innerHTML=a+b;
+    </script>
+</head>
+<body>
+    <p id="result"></p>
+    <p id="message"></p>
+    <script>
+
+        var el = document.getElementById("message");
+        el.innerHTMl = "Hello, this is going to be inside p tag";
+        
+    </script>
+</body>
+</html>

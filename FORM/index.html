@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="">
+        <div class="form-element">
+        <label>First Name:</label>
+        <input type="text" name="first_name" id="first_name"/>
+    </div>
+    <div class="form-element">
+        <label>Last Name:</label>
+        <input type="text" name="last_name" id="last_name"/>
+        </div>
+        <div class="form-element">
+            <label>Email:</label>
+            <input type="email" name="email" id="email"/> 
+        </div>
+        <div class="form-element">
+            <label>Password:</label>
+            <input type="password" name="password"  id="password">
+        </div>
+        <div class="form-element">
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="Male">Male</input> 
+            <!-- to select one either male or female, use the same name = gender for both inputs -->
+            <input type="radio" name="gender" value="Female">Female</input>
+        </div>
+        <div class="form-element">
+            <label>Education:</label>
+            <input type="checkbox" name="l1" value="L1"/>SEE
+            <input type="checkbox" name="l2" value="L2"/>Plus2
+            <input type="checkbox" name="l3" value="L3"/>Undergraduate
+            <input type="checkbox" name="l4" value="L4"/>Postgraduate
+        </div>
+        <div class="form-element"> 
+            <label>Zone:</label>
+            <select>
+                <option value="Bagmati">Bagmati Province</option>
+                <option value="Gandaki">Gandaki Province</option>
+                <option value="koshi">koshi Province</option>
+                <option value="Madesh">Madesh Province</option>
+                <option value="Lumbini">Lumbini Province</option>
+            </select>
+        </div>
+        <div class="form-element">
+        <input type="submit" value="Register" name="submit_button" id="submit_button">
+    </div>
+    </form>
+</body>
+</html>
