@@ -1,0 +1,14 @@
+tr{
+    color: white;
+}
+  tr:nth-child(even) {
+    background-color:  rgba(251, 101, 101, 0.811);
+  }
+
+  tr:nth-child(odd) {
+    background-color:rgba(58, 223, 223, 0.833);
+  }
+
+  tr:hover{
+    background-color: rgb(40, 31, 31);
+}

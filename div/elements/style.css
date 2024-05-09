@@ -1,0 +1,16 @@
+.blockelement {
+    background-color:rgb(95, 186, 186);
+    padding: 30px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .inlineelement{
+    color:rgb(224, 46, 46);
+    font-weight: bold; 
+    text-decoration: underline;   
+  }
+  .class1{
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+
+  }

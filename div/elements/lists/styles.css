@@ -1,0 +1,15 @@
+li{
+    background-color: aqua;
+    text-decoration: none;
+    margin-bottom: 10px;
+  width: 300px;
+}
+ul,ol{
+    margin-bottom: 50px;
+}
+a{
+    color: red;
+}
+ul li:hover, ol li:hover{
+    background-color: palegoldenrod
+}
