@@ -1,0 +1,17 @@
+.panel{
+    border: 1px solid black;
+    height: 500px;
+    width:390px ;
+}
+#left_panel{
+    background-color: aqua;
+    display: inline-block ; 
+}
+#content_panel{
+    background-color: rgb(116, 171, 227);
+    display: inline-block ; 
+}
+#right_panel{
+    background-color: rgb(120, 214, 132);
+    display: inline-block; 
+}
