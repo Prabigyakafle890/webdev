@@ -1,0 +1,59 @@
+<html>
+<head>
+   
+    <h2 id="title" >Calculator</h2>
+    <script>
+         
+     function add(){
+        var num1= document.getElementById("number1").value;
+        var num2= document.getElementById("number2").value;
+        document.getElementById("result").innerHTML= parseInt(num1)+ parseInt(num2);
+
+}
+function subtract(){
+        var num1= document.getElementById("number1").value;
+        var num2= document.getElementById("number2").value;
+        document.getElementById("result").innerHTML= parseInt(num1)- parseInt(num2);
+
+}
+function Product(){
+        var num1= document.getElementById("number1").value;
+        var num2= document.getElementById("number2").value;
+        document.getElementById("result").innerHTML= parseInt(num1) * parseInt(num2);
+
+}
+function Divide(){
+        var num1= document.getElementById("number1").value;
+        var num2= document.getElementById("number2").value;
+        document.getElementById("result").innerHTML= parseInt(num1) / parseInt(num2);
+
+}
+
+    </script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="box">
+    <input type="number" name="number1" id="number1"/>
+    <input type="number" name="number2" id="number2"/>
+</div>
+    <div id="calculate">
+<div id="add">
+<button onClick="add()">Add</button>
+</div>
+<div id ="subtract">
+    <button onClick="subtract()">Subtract</button>
+</div>
+<div id ="product">
+    <button onClick="Product()">Multiply</button>
+</div>
+<div id ="Divide">
+    <button onClick="Divide()">Divide</button>
+</div>
+</div>
+<p id="result">
+
+</p>
+</body>
+</html>

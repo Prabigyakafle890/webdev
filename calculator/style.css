@@ -1,0 +1,37 @@
+
+        #title{
+            color: brown;
+            font-family: cursive;
+            /* background-color: darkkhaki; */
+            text-align: center;
+            width: 100%;
+        }
+        #result
+        {
+          color: rgb(38, 196, 38);
+          font-size: 25px;
+          font-weight:bold;
+          text-align: end;
+        }
+        
+        #calculate {
+            
+           text-align: center;
+            display: block;
+            margin-top: 3px; 
+        }
+        #calculate button
+        {
+            color: rgb(51, 97, 4);
+            margin-top:10px ;
+            font-size: 18px;
+        }
+        body{
+            margin: 100px;
+            margin-top: 30px;
+            background-color: bisque;
+        }
+        #box{
+            text-align: center;
+        }
+   
