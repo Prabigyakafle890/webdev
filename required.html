@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        #err{
+color: red;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>Username</label>
+    <input type="text" name="username" id="username" placeholder="Enter your name" /><span id="err"></span>
+    <div id="button">
+
+        <!-- <input type="button" value=""Submit onClick="validate()"/> -->
+   <button  onclick=" return validate()">Submit</button>
+</div>
+</form>
+
+   <script>
+function validate(){
+    var username=document.getElementById("username").value;
+    if(username==null || username == ""){
+        document.getElementById("err").innerText="*required";
+        return false;
+    }
+}
+   </script>
+</body>
+</html>
