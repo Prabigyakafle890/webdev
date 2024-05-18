@@ -1,0 +1,37 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving Div</title>
+    <style>
+        #division {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            position: absolute;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="division"></div>
+  
+
+    <script>
+      let division= document.getElementById("division");
+      document.addEventListener('mousemove',(e)=>{
+        var x= e.clientX;
+        var y= e.clientY;
+        division.style.top=y+"px";
+        division.style.left=x+"px";
+      })
+        
+        
+    </script>
+</body>
+</html>
+
+
+ 
+
