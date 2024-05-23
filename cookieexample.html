@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie in Javascript</title>
+    <!-- <script type="text/Javascript">
+        document.cookie = "username=John  Nash; expires=Thu,"+
+        + " 18 Dec 2024 12:00:00 UTC; path=/";
+        
+    </script> -->
+
+    <script src="">
+        var cookieList=document.cookie;
+        arr= cookieList.split(";");
+
+        for (var i=0;i<arr.length;i++){
+            name= arr[i].split("=")[0];
+            value= arr[i].split("=")[1];
+            document.write(name+" "+value);
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
